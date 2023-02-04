@@ -1,0 +1,26 @@
+.slot_day {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  height: 70px;
+  border: 1px solid black;
+}
+.slot_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.time_drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.select_drop {
+  outline: none;
+  border: none;
+  margin-top: -10px;
+}
